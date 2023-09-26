@@ -1,0 +1,48 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(44, 44, 42);
+}
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+main {
+    background-color: rgb(0, 0, 0);
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+article {
+    background-color: rgb(124, 122, 118);
+}
+article > aside > h2 {
+    text-align: center;
+}
+nav {
+    background-color: rgb(83, 81, 78);
+    padding: 3px;
+    box-shadow: 1px 1px 5px black;
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 30px;
+}
+nav > a:hover {
+    text-decoration: underline;
+}
+h1 {
+    background-color: rgb(143, 146, 148);
+    border-radius: 5px;
+}
+#bola {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
