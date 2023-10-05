@@ -43,19 +43,36 @@ section {
     padding-left: 30px;
     padding-bottom: 10vh;
     line-height: 2em;
+    font-size: 2em;
     font-family: var(--fnt3);
 }
+section p {
+    padding-bottom: 2em;
+}
 section.normal {
-    background-color: rgb(161, 151, 151);
+    background-color: rgb(255, 255, 255);
     color: black;
 }
 section.imagem {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-size: cover;
+    background-attachment: fixed;
 }
 section.imagem p {
-    background-color: rgb(73, 70, 70);
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(73, 70, 70, 0.74);
+    text-shadow: 1px 1px 0 black;
+}
+section#img1 {
+    background-image: url('joaninha.jpg');
+    background-position: right center;
+}
+section#img2 {
+    background-image: url('livro.jpg');
+    background-repeat: no-repeat;
 }
 footer {
     background-color: black;
