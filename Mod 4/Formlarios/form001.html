@@ -14,13 +14,18 @@
     <h1>Meu primeiro Formulário</h1>
     <form action="cadastro.php" autocomplete="off" method="post">
         <p>
-            <label for="idnome">Nome:</label> <input type="text" name="nome" id="idnome"></input>
+            <label for="iusu">Usuário:</label> 
+            <input type="text" name="usu" id="id_usu" required size="19" placeholder="Ex. Daniel Braga"></input>
         </p>
         <p>
-            <label for="idsobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="idsobrenome"></input>
+            <label for="isenha">Senha:</label> 
+            <input type="password" name="isenha" id="id_senha" required minlength="8" placeholder="Min. 8 dig."></input>
         </p>
         <p>
             <input type="submit" value="Enviar">
+        </p>
+        <p>
+            <input type="reset" value="Limpar">
         </p>
     </form>
 </body>
