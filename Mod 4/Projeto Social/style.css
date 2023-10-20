@@ -36,7 +36,7 @@ iframe#tela {
 section#social {
     text-align: right;
 }
-section#social img {
+section#social > a> img {
     width: 50px;
     margin: 5px;
     border-radius: 50%;
@@ -50,5 +50,4 @@ section#social img:hover {
 }
 section.yt {
     width: auto;
-    height: ;
 }

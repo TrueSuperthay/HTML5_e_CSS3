@@ -40,14 +40,13 @@ header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     min-height: 150px;
     text-align: center;
-    padding: 40px;
+    padding-top: 20px;
 }
 header p {
     color: white;
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
     max-width: 500px;
-    padding-bottom: 50%;
     margin: auto;
     text-shadow: 2px 2px black;
     text-align: center;
