@@ -2,34 +2,3 @@
 body {
     background-color: rgb(0, 0, 0);
 }
-div.social {
-  display: inline-block;
-  width: auto;
-  position: absolute;
-  right: 0%;
-}
-div.social img {
-  width: 30px;
-}
-nav#id_menu {
-    background-color: aqua;
-    width: auto;
-    margin: auto;   
-}
-#id_menu ul li {
-    display: inline;
-    padding: 5px;
-}
-#id_menu ul li a { 
-    padding: 2px 2px; 
-    display: inline-block; /* visual do link */ 
-    background-color:#EDEDED; 
-    color: #333; 
-    text-decoration: none; 
-    border-bottom:3px solid #EDEDED; 
-}
-#id_menu ul li a:hover { 
-    background-color:#D6D6D6;
-    color: #6D6D6D;
-    border-bottom:3px solid #EA0000;
-}
